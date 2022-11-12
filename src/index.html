@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="resume" />
+    <meta name="description" content="HTML Resume of Ria Seth" />
+    <meta name="author" content="Ria Seth" />
+    <link rel="stylesheet" href="/src/assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- making a navigation area with 3 parts-header, introductoryparagraph and link to contacts page -->
+    <nav>
+      <header>
+        <h1>RIA SETH</h1>
+        <h3>
+          Student, Front-end developer<br />
+          (Calgary, AB)
+        </h3>
+      </header>
+
+      <div id="intro">
+        <p>
+          Self-taught, dedicated and highly motivated individual dedicated to
+          writing clear, concise, robust code that works. Passionate about
+          front-end development and focusing on expanding knowledge in
+          JavaScript and its frameworks and perfecting accessibility and
+          responsive design. Striving to never stop learning and improving.
+        </p>
+      </div>
+      <div id="contact">
+        <a href="\src\contact.html" target="_blank">Contact</a>
+      </div>
+    </nav>
+    <div class="hl"></div>
+    <!-- making an article and using it as acontainer for 2 sections -->
+    <article>
+      <!-- first section that contains personal details like image, phone number and email-->
+      <section id="personal">
+        <img src="\src\assets\image\photo.jpeg" alt="image of ria" />
+        <h2>Personal Information</h2>
+        <a href="tel:(+1)5879730332">(+1)587-973-0332</a>
+        <a href="mailto:riaseth13@gmail.com" target="_blank"
+          >riaseth13@gmail.com</a
+        >
+      </section>
+      <div class="vl"></div>
+      <!-- another section that contains other information like education, experience, skills and language-->
+      <section id="others">
+        <!-- making a div to store information about education-->
+        <div class="education">
+          <h2>Education</h2>
+          <div class="bsc">
+            <h4>Bachelor's of science(Computer Science)</h4>
+            <p>Guru Nanak Dev University</p>
+            <p>Amritsar, India</p>
+            <p>08/2018-08/2021</p>
+          </div>
+          <div class="digital">
+            <h4>Digital Media and Marketing</h4>
+            <p>University of Calgary</p>
+            <p>Calgary, AB, Canada</p>
+            <p>08/2022-08/2023 (anticipated)</p>
+          </div>
+        </div>
+        <div class="hl"></div>
+        <!-- making a div to store information about experience-->
+        <div class="experience">
+          <h2>Experience</h2>
+          <div class="tutoring">
+            <h4>Tutoring (2018-2021)</h4>
+            <p>
+              Provided math and computer tutoring to peers both in and off
+              campus. Used communication skills to explain difficult concepts in
+              simple terms. Provided hand on tutoring in various object oriented
+              languages like java, C and C++.
+            </p>
+          </div>
+          <div class="admin">
+            <h4>Administrative assistant (2021-2022)</h4>
+            <p>
+              Did a full time job for 9 months as an administrative assistant at
+              a local automobile firm in hometown in India. Work included
+              handling office tasks, such as filing, generating reports and
+              presentations, setting up for meetings, and reordering supplies.
+              Providing real-time scheduling support by booking appointments and
+              preventing conflicts. Screening phone calls and routing callers to
+              the appropriate party.Greet and assist visitors.
+            </p>
+          </div>
+        </div>
+        <div class="hl"></div>
+        <!-- a div to store skills-->
+        <div class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>ADOBE PHOTOSHOP</li>
+            <li>MICROSOFT OFFICE SUITE</li>
+          </ul>
+        </div>
+
+        <div class="hl"></div>
+        <!-- a div to store information about languages-->
+        <div class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>English (Fluent)</li>
+            <li>Hindi (Native)</li>
+            <li>Punjabi (Native)</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>

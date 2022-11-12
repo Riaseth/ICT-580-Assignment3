@@ -1,4 +1,6 @@
 *{
+    margin:  0;
+    padding: 0;
     box-sizing: border-box;
 }
 /* making the nav as grid to display 3 columns of different widths*/
@@ -12,12 +14,17 @@ nav{
     }
     header{
         text-align: center;
+        padding: 10px;
+        margin: 16px;
         
     }
     
     #intro{
     padding-top: 15px;
     padding-left: 5px;
+    margin: 11px;
+    
+
     }
     #contact   {
         margin: 30px 70px;
@@ -42,7 +49,7 @@ nav{
    
 }
 #personal h2{
-    padding-left: 7px;
+    padding: 7px;
     color: rgb(14, 14, 94);
 
 }
@@ -58,10 +65,31 @@ nav{
 #others{
     display: flex;
     flex-direction: column;
-    margin-left: 12px;
+    margin-left: 17px;
     margin-right: 10px;
+    margin-top: 6px;
+    padding: 6px;
     }
-    
+   #others div{
+        padding: 7px;
+    }
+    .education{
+        padding: 6px;
+        margin: 5px;
+
+    }
+    .experience{
+        padding: 6px;
+        margin: 5px;
+    }
+    .skills{
+        padding: 6px;
+        margin: 5px;
+    }
+    .languages{
+        padding: 6px;
+        margin: 5px;
+    }
   /*article contains both sections. Therefore using flex-direction as row to make them appear side by side to each other*/ 
 article{
 display: flex;
@@ -154,7 +182,8 @@ font-size: 2rem;
         }
         #intro{
             padding: 5px;
-            margin-right: 5px;
+            
+            width: 87vw;
         }
         /* maing article's flex direction as column to display both sections vertically*/
         article{
@@ -184,12 +213,12 @@ font-size: 2rem;
             }
              img{
                 margin: 0px 0px;
-                width: 85vw;
+                width: 80vw;
 
             }
             
            
-            ul p{
+             p{
                 margin: 10px;
                 padding: 7px;
                 
